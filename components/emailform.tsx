@@ -51,7 +51,7 @@ export const EmailSubscriptionForm: React.FC<EmailSubscriptionFormProps> = ({
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Enter your email for beta access"
           required
-          className="flex-grow px-4 py-2 border border-indigo-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          className="text-black flex-grow px-4 py-2 border border-indigo-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
         />
         <button
           type="submit"
